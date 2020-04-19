@@ -14,29 +14,48 @@ We also suggest if you need direction to check out the `Project Checklist` markd
 Both this boiler plate and the checklist were built simultaneously, so feel free to use them in tandem. 
 
 > Eventually you will delete everything above this line. This is just here to introduce the boilerplate. We also suggest deleting any other indentations like this. There are more there to get you thinking about the 'point' of the section. 
-# The Title of Your Project Goes Here 
+# Predicting (CVD) Using Machine Learning(ML).
 
-One sentence summary goes here saying what you did.
-A second sentence goes here says why it matters.
-A last sentence links to any productionized web dashboard here.
+
+Using classification models , I was able to establish the best method to predict cardiovascular disease(CVD). 
+
+One in four deaths in Britain is caused by CVD and has a very high human and Economic cost.A process that can save clinical diagnosis and research would not only save money but also lifes .
+
+Figures released by the Centre for Economic and Business Research shows the total cost of CVD in the UK is set to rise by over £3billion in the next six years, from around £15billion in 2014 to over £18billion in 2020.
+
+I used dataset from https://www.kaggle.com/sulianova/cardiovascular-disease-dataset .
+I used mainly information from several sources with facts and figures from 
+https://www.bhf.org.uk/what-we-do/our-research/heart-statistics/heart-statistics-publications/cardiovascular-disease-statistics-2019.
+
+https://www.england.nhs.uk/ourwork/clinical-policy/cvd/.
 
 You can also link to 
-* [Your Email]()
-* [Your Linked In]()
+* [Your Email](osodot@icloud.com)
+* [Your Linked In](https://www.linkedin.com/in/thomas-osodo-6961041a/)
 * [Your Twitter?]()
 
 > We suggest that people follow a "Facebook Page" approach to writing up their README. This means that the most important information is at the top (your name, point of project, contact info) and then as you go down the document you get less and less relevant information. Remember that you are NOT writing a detective story and need to find a way to present as much information as quickly as possible to the person that will be looking at this for 45 seconds tops. Of course others might look for longer, but the UX/UI of your REAMDE should be done with the 'github skimmer' in mind.
 
 ### Executive Summary
 
-Start with one or two sentences here that contextualises what your project matters here.
+7 Million people have a (CVD)condition in the the entire country and plenty of resources used to manage and treat (CVD). Early intervention and prediction can add value to person(s) at risk of (CVD).Saving the tax payer,Lives and the economy interms of productivity .
 These two sentences will demonstrate your business understanding. 
 
-Next, in a second paragraph, write how you were able to make a data science operationalization of the problem.
-For example, you might say that in order to help solve this problem you set out to build a classification ML model in order to automate some process. 
+Applying Machine learning Models by analysing data using different classifier methods to predict the risk of (CVD) i found an accuracy prediction of 73% in my best Machine Learning Model .
 
-Third, you then write what you did on the project that is a bit more technical.
-Here you might say that you took data from [here and make it a link to the original data]() and then ran `a list of models you ran here` in your analysis.
+The process of prediction would be automated to help the clinicians and reseachers use it without much effort,saving time in clinical hours .
+
+The data was categorical,to get good results I used One Hot Encoding, machine learning algorithms cannot work with categorical data directly. The categories must be converted into numbers.
+I split my data into Train and test Split .
+
+Analyze and perform EDA on the Dataset
+Applying knowledge of CRISP-DM methodology.
+
+
+I used data from kaggle [https://www.kaggle.com/sulianova/cardiovascular-disease-dataset] 
+
+I used several machine learning models to analysis namely :
+
 Then end with one sentence that picks what your best model was and how it performed.
 
 Lastly, you say in one or two sentences why this matters. 
