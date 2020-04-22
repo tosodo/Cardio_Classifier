@@ -72,6 +72,11 @@ Write documentation that looks like someone you would want to work with.
 
 ![Everyone Likes a Pairplot](figures/seaborn-pairplot-3.png)
 
+
+<p align="center">
+  <img width="700" height="600" src="https://github.com/tosodo/Cardio_Classifier/blob/master/Images/Heatmap%20.png">
+</p>
+
 > Image taken from `seaborn` [documentation](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
 
 **DO NOT PUT THE GOOD BITS OF YOUR PROJECT BURRIED AWAY AT THE BOTTOM OF YOUR README, YOU ARE NOT WRITING A DETECTIVE NOVEL**
