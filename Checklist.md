@@ -15,15 +15,15 @@ Note that you can make both complete and non-complete checkmarks within markdown
 
 ## Setting Things Up 
 
-* [ ] Start a new github repo page for your capstone
-* [ ] Make sure the project has a clear name  
-* [ ] Initialize with a README 
-* [ ] Set project as public, not private 
-* [ ] Share your github link with the instructor in charge of your capstone  
-* [ ] Copy this checklist into your new project repo   
-* [ ] Check off some of these boxes you have completed like the example above 
-* [ ] Copy the Boilerplate README to your new repo
-* [ ] Push this repo with your first commit message!  
+* [x] Start a new github repo page for your capstone
+* [x] Make sure the project has a clear name  
+* [x] Initialize with a README 
+* [x] Set project as public, not private 
+* [x] Share your github link with the instructor in charge of your capstone  
+* [x] Copy this checklist into your new project repo   
+* [x] Check off some of these boxes you have completed like the example above 
+* [x] Copy the Boilerplate README to your new repo
+* [x] Push this repo with your first commit message!  
 
 ## Setting Your Large Goals 
 
@@ -31,23 +31,23 @@ It's important to start with the ends in mind for any large scale project.
 This does not mean that you want a specific result, but rather you know an exact question that you are pursuing at first.
 It is OK for this to change here or there, just make sure you document it.
 
-* [ ] Remove the top level instructional header of the boilerplate README 
-* [ ] Fill in the boiler plate README with your current goals 
-* [ ] Leave blank any areas where you are not sure
+* [x] Remove the top level instructional header of the boilerplate README 
+* [x] Fill in the boiler plate README with your current goals 
+* [x] Leave blank any areas where you are not sure
 
 ## Setting Up Your Github Repo
 
 After getting a general idea of the project and where you initially plan for it to go, now you can start thinking about what you're going to do.
 At this point, we suggest doing a few small things just to avoid a headache later.
 
-* [ ] Set your git ignore file (if there is anything you don't want it to track). For example, you might not want to track your `*.ipynb_chekpoint` files.
-* [ ] If you know you will be doing a neural network or something with a ton of data, set up [git lfs](https://git-lfs.github.com/) right away. It's literally three lines of code. 
-* [ ] Create a `data` repository`
-* [ ] Inside `data`, create sub folders for each step of your data cleaning. For example within `data`, you might have a `data/raw` and a `data/processed` directory. 
+* [x] Set your git ignore file (if there is anything you don't want it to track). For example, you might not want to track your `*.ipynb_chekpoint` files.
+* [x] If you know you will be doing a neural network or something with a ton of data, set up [git lfs](https://git-lfs.github.com/) right away. It's literally three lines of code. 
+* [x] Create a `data` repository`
+* [x] Inside `data`, create sub folders for each step of your data cleaning. For example within `data`, you might have a `data/raw` and a `data/processed` directory. 
 * [ ] Create a `functions` repository. Put functions you make in here right away. Think ahead.  
-* [ ] Create a `notebooks` repository. 
+* [x] Create a `notebooks` repository. 
 * [ ] Within `notebooks`, create a notebook for each step of the process. For example, you might have a `notebooks/data_cleaning.ipynb`, a `notebooks/EDA.ipynb`, a `notebooks/modeling.ipynb`, and a `notebooks/testing.ipynb`. This is by no means exhaustive, but rather meant to just slot what you are going to have to do at various stages.
-* [ ] Push this new skeleton up to github 
+* [x] Push this new skeleton up to github 
 
 ## Getting Your Data
 

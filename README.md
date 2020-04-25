@@ -52,13 +52,15 @@ Then end with one sentence that picks what your best model was and how it perfor
 Lastly, you say in one or two sentences why this matters. 
 For example, now as opposed to before this data analysis, you can now predict X better than Y. 
 
-The goal of this project was to create a `regression/classification` model that was able to predict `what you set out to do`.
+The goal of this project was to create a classification model that was able to predict cardiovascular diseases.
 
 > If you are able to swap out the text here with what your case example is you will demonstrate the following:
-> 1. You get why what you're doing 'matters'
-> 2. You are able to take ill defined problems and turn them into something a data scienst can solve
+ 1. 1 in 4 deaths in the UK is Cardiovascular related,using modern machine learning techniques can improve the chances of early prediction .
+ 2. Automating the diagnostic process will save clinical time and save lives . This will also reduce the number of misdiagnosed cases , which account for 1 in 3 cases .
+ 
+ 
 > 3. You show off your analystical and modeling chops.
-> 4. You are able to communicate technical things you do.
+4. I used a classification models to predict the cardiovascular disease as it was categorical data ,using classifiers would give me good results in my models .
 
 ### More Information
 
