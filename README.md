@@ -7,10 +7,9 @@
  
 Predicting (CVD) Using Machine Learning(ML).
 
+Machine learning has demonstrated truly life-impacting potential in healthcare – particularly in the area of medical diagnosis. 
 
-Using classification models , I was able to establish a good method to predict cardiovascular disease(CVD). 
-
-One in four deaths in Britain is caused by CVD and has a very high human and Economic cost.A process that can save clinical diagnosis and research would not only save money but also lifes .
+One in four deaths in Britain is caused by CVD and has a very high human and Economic cost.A process that can save clinical diagnosis and research would not only save money but also lives .
 
 Figures released by the Centre for Economic and Business Research shows the total cost of CVD in the UK is set to rise by over £3billion in the next six years, from around £15billion in 2014 to over £18billion in 2020.
 
@@ -29,15 +28,13 @@ You can also link to
 
  Executive Summary
 
-7 Million people have a (CVD)condition in the the entire country and plenty of resources used to manage and treat (CVD). Early intervention and prediction can add value to person(s) at risk of (CVD).Saving the tax payer,Lives and the economy interms of productivity .
-These two sentences will demonstrate your business understanding. 
+7 Million people have a (CVD)condition in the entire country and plenty of resources used to manage and treat (CVD). Early intervention and prediction can add value to person(s) at risk of (CVD).Saving the tax payer,Lives and the economy interms of productivity . 
 
-Applying Machine learning Models by analysing data using different classifier methods to predict the risk of (CVD) i found an accuracy prediction of 73% in my best Machine Learning Model .
+Applying Machine learning Models by analysing data using different classifier algorithms to predict the risk of (CVD) i found an accuracy prediction of 73% .
 
-The process of prediction would be automated to help the clinicians and reseachers use it without much effort,saving time in clinical hours .
+Automated diagnosis is less time consuming and an effective tool .
 
-The data was categorical,to get good results I used One Hot Encoding, machine learning algorithms cannot work with categorical data directly. The categories must be converted into numbers.
-I split my data into Train and test Split .
+Solving a problem with machine learning often involves many iterative experiments to find the best model for solving the problem by further tuning the model.
 
 Analyze and perform EDA on the Dataset
 Applying knowledge of CRISP-DM methodology.
@@ -45,31 +42,48 @@ Applying knowledge of CRISP-DM methodology.
 
 I used data from kaggle [https://www.kaggle.com/sulianova/cardiovascular-disease-dataset] 
 
-I used several machine learning models to analysis namely :
 
-Then end with one sentence that picks what your best model was and how it performed.
+After experimenting with different algorithms, the mean F1 scores, in cross-validation, gained by each classifier is presented below. Given that accuracy is considered the most intuitive measure, it has also been plotted on the graph.
 
-The scientific community in the recent years have been adopting machine learning in research and clinical work .Machine learning is still developing and will improve with the advancement in technology. It is important to adopt machine learning to improve the process and lives .
+As you can see from the graph, the classifiers are showing pretty good results in terms of being able to better distinguish patients who have cvd versus those who are healthy by reaching 0.73% F1 scores.
 
-The aim of the project is to help advance the predictive process of cvd .The model pediction matrix show a good accuracy score with 73% accuracy .
+The best value for F1 is 1, and the worst value is 0. In order to gain higher scores.
 
 The goal of this project was to create a classification model that was able to predict cardiovascular diseases.
 
-
- 1. 1 in 4 deaths in the UK is Cardiovascular related,using modern machine learning techniques can improve the chances of early prediction .
+ 1. 1 in 4 deaths in the UK is Cardiovascular related,using modern machine learning algorithms can improve the chances of early prediction .
  2. Automating the diagnostic process will save clinical time and save lives . This will also reduce the number of misdiagnosed cases , which account for 1 in 3 cases .
  
  
 > 3. You show off your analystical and modeling chops.
-4. I used a classification models to predict the cardiovascular disease as it was categorical data ,using classifiers would give me good results in my models .
+
 
 ### More Information
-Machine learning in a cvd context is digital diagnosis. ML can detect patterns of cvd within patient electronic healthcare records and inform clinicians of any anomalies .
+
+Machine learning in a cvd context is digital diagnosis. ML can detect patterns of cvd within a patient electronic healthcare records and inform clinicians of any anomalies .
+
+As machine learning and data science are starting to be adopted as a tool in healthcare applications, the industry is slowly pushing the boundaries on what it can do.
+
+In order to get started modeling, the data set was split into two parts:
+
+Train set (75%), for choosing and validating models, and
+Test set (25%), hold out data on which I will see how well models are able to generalize on unseen data.
+
+Based on these numbers I define the metrics as follows:
+
+-Accuracy – ratio of correctly classified patients to the total number of patients (Accuracy = (TP+TN)/(TP+FP+FN+TN))
+-Precision – ratio of correctly classified patients with cvd to the total patients classified as having cvd. The intuition behind precision is how many patients classified as having cvd truly have the cvd . (Precision = TP/TP+FP).
+    -Recall – ratio of correctly classified cvd patients to patients who have the cvd. The intuition  behind recall is how many patients who have cvd classified as having the cvd. (Recall = TP/TP+FN).
 
 Here I would especially suggest diving a bit deeper into your methodology and including images that you are proud of from the project. 
 Remember, that people will probably judge your github project page within 45 seconds tops, you want it to look as clean as possible. 
 
-Write documentation that looks like someone you would want to work with.
+
+
+
+
+
+
 
 ### Show Off Your Data Viz
 
@@ -82,4 +96,4 @@ Write documentation that looks like someone you would want to work with.
 
 > Image taken from `seaborn` [documentation](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
 
-**DO NOT PUT THE GOOD BITS OF YOUR PROJECT BURRIED AWAY AT THE BOTTOM OF YOUR README, YOU ARE NOT WRITING A DETECTIVE NOVEL**
+
