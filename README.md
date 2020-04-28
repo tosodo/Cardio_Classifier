@@ -1,11 +1,11 @@
- Cardio_Classifier
- Name :  Thomas Osodo 
- Predicting (CVD) Using Machine Learning(ML).
+ ### Cardio_Classifier
+### Name :  Thomas Osodo 
+ ### Predicting (CVD) Using Machine Learning(ML).
 
   
 
  
-Predicting (CVD) Using Machine Learning(ML).
+### Predicting (CVD) Using Machine Learning(ML).
 
 Machine learning has demonstrated truly life-impacting potential in healthcare – particularly in the area of medical diagnosis. 
 
@@ -26,7 +26,7 @@ You can also link to
 
 
 
- Executive Summary
+ ### Executive Summary
 
 7 Million people have a (CVD)condition in the entire country and plenty of resources used to manage and treat (CVD). Early intervention and prediction can add value to person(s) at risk of (CVD).Saving the tax payer,Lives and the economy interms of productivity . 
 
@@ -36,8 +36,8 @@ Automated diagnosis is less time consuming and an effective tool a secong pair o
 
 Solving a problem with machine learning often involves many iterative experiments to find the best model for solving the problem by further tuning the model.
 
-Analyze and perform EDA on the Dataset
-Applying knowledge of CRISP-DM methodology.
+### Analyze and perform EDA on the Dataset
+### Applying knowledge of CRISP-DM methodology.
 
 
 I used data from kaggle [https://www.kaggle.com/sulianova/cardiovascular-disease-dataset] 
@@ -55,7 +55,6 @@ The goal of this project was to create a classification model that was able to p
  2. Automating the diagnostic process will save clinical time and save lives . This will also reduce the number of misdiagnosed cases , which account for 1 in 3 cases .
  
  
-> 3. You show off your analystical and modeling chops.
 
 
 ### More Information
@@ -71,9 +70,11 @@ Test set (25%), hold out data on which I will see how well models are able to ge
 
 Based on these numbers I define the metrics as follows:
 
--Accuracy – ratio of correctly classified patients to the total number of patients (Accuracy = (TP+TN)/(TP+FP+FN+TN))
+-Accuracy – ratio of correctly classified patients to the total number of patients (Accuracy = (TP+TN)/(TP+FP+FN+TN)).
+
 -Precision – ratio of correctly classified patients with cvd to the total patients classified as having cvd. The intuition behind precision is how many patients classified as having cvd truly have the cvd . (Precision = TP/TP+FP).
-    -Recall – ratio of correctly classified cvd patients to patients who have the cvd. The intuition  behind recall is how many patients who have cvd classified as having the cvd. (Recall = TP/TP+FN).
+
+Recall – ratio of correctly classified cvd patients to patients who have the cvd. The intuition  behind recall is how many patients who have cvd classified as having the cvd. (Recall = TP/TP+FN).
 
 The potential of machine learning within the medical industry is revealed through this in-depth example of how the technology can be applied to provide a medical diagnosis in this case, the prediction and diagnosis of cardiovascular disease. 
 
@@ -87,22 +88,10 @@ Test AUC:     73.77%
 <p align="center">
   <img width="700" height="600" src="https://github.com/tosodo/Cardio_Classifier/blob/master/Images/Screenshot%202020-04-28%20at%2017.14.32.png">
 </p>
-
-
-
-
-
-
-
-### Show Off Your Data Viz
-
-![Everyone Likes a Pairplot](figures/seaborn-pairplot-3.png)
-
-
 <p align="center">
   <img width="700" height="600" src="https://github.com/tosodo/Cardio_Classifier/blob/master/Images/Screenshot%202020-04-28%20at%2017.12.59.png">
 </p>
 
-> Image taken from `seaborn` [documentation](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
+
 
 
