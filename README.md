@@ -79,11 +79,14 @@ The potential of machine learning within the medical industry is revealed throug
 
 Evaluating Output Quality Through Receiver Operating Curves(ROC).
 
+### Model Scores.
+Training AUC: 74.38%
+Test AUC:     73.77%
 
 
-
-
-
+<p align="center">
+  <img width="700" height="600" src="https://github.com/tosodo/Cardio_Classifier/blob/master/Images/Screenshot%202020-04-28%20at%2017.14.32.png">
+</p>
 
 
 
@@ -97,7 +100,7 @@ Evaluating Output Quality Through Receiver Operating Curves(ROC).
 
 
 <p align="center">
-  <img width="700" height="600" src="https://github.com/tosodo/Cardio_Classifier/blob/master/Images/Heatmap%20.png">
+  <img width="700" height="600" src="https://github.com/tosodo/Cardio_Classifier/blob/master/Images/Screenshot%202020-04-28%20at%2017.12.59.png">
 </p>
 
 > Image taken from `seaborn` [documentation](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
