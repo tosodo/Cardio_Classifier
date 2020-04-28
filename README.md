@@ -1,6 +1,6 @@
  Cardio_Classifier
  Name :  Thomas Osodo 
- Machine Learning Classifier .
+ Predicting (CVD) Using Machine Learning(ML).
 
   
 
@@ -9,7 +9,7 @@ Predicting (CVD) Using Machine Learning(ML).
 
 Machine learning has demonstrated truly life-impacting potential in healthcare – particularly in the area of medical diagnosis. 
 
-One in four deaths in Britain is caused by CVD and has a very high human and Economic cost.A process that can save clinical diagnosis and research would not only save money but also lives .
+One in four deaths in Britain is caused by CVD and has a very high human and Economic cost.
 
 Figures released by the Centre for Economic and Business Research shows the total cost of CVD in the UK is set to rise by over £3billion in the next six years, from around £15billion in 2014 to over £18billion in 2020.
 
@@ -32,7 +32,7 @@ You can also link to
 
 Applying Machine learning Models by analysing data using different classifier algorithms to predict the risk of (CVD) i found an accuracy prediction of 73% .
 
-Automated diagnosis is less time consuming and an effective tool .
+Automated diagnosis is less time consuming and an effective tool a secong pair of eyes for the clinician.
 
 Solving a problem with machine learning often involves many iterative experiments to find the best model for solving the problem by further tuning the model.
 
@@ -75,8 +75,14 @@ Based on these numbers I define the metrics as follows:
 -Precision – ratio of correctly classified patients with cvd to the total patients classified as having cvd. The intuition behind precision is how many patients classified as having cvd truly have the cvd . (Precision = TP/TP+FP).
     -Recall – ratio of correctly classified cvd patients to patients who have the cvd. The intuition  behind recall is how many patients who have cvd classified as having the cvd. (Recall = TP/TP+FN).
 
-Here I would especially suggest diving a bit deeper into your methodology and including images that you are proud of from the project. 
-Remember, that people will probably judge your github project page within 45 seconds tops, you want it to look as clean as possible. 
+The potential of machine learning within the medical industry is revealed through this in-depth example of how the technology can be applied to provide a medical diagnosis in this case, the prediction and diagnosis of cardiovascular disease. 
+
+Evaluating Output Quality Through Receiver Operating Curves(ROC).
+
+
+
+
+
 
 
 
