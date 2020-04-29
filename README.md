@@ -1,6 +1,6 @@
  ### Cardio_Classifier
 ### Name :  Thomas Osodo 
- ### Predicting (CVD) Using Machine Learning(ML).
+ 
 
   
 
@@ -22,7 +22,7 @@ https://www.england.nhs.uk/ourwork/clinical-policy/cvd/.
 You can also link to 
 * [Your Email](osodot@icloud.com)
 * [Your Linked In](https://www.linkedin.com/in/thomas-osodo-6961041a/)
-* [Your Twitter?]()
+
 
 
 
@@ -78,7 +78,7 @@ Recall – ratio of correctly classified cvd patients to patients who have the c
 
 The potential of machine learning within the medical industry is revealed through this in-depth example of how the technology can be applied to provide a medical diagnosis in this case, the prediction and diagnosis of cardiovascular disease. 
 
-Evaluating Output Quality Through Receiver Operating Curves(ROC).
+### Evaluating Output Quality Through Receiver Operating Curves(ROC).
 
 ### Model Scores.
 Training AUC: 74.38%
