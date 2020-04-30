@@ -1,11 +1,6 @@
- ### Cardio_Classifier
-### Name :  Thomas Osodo 
- 
+# Predicting Cardiovascular Disease Using Machine Learning .
 
-  
-
- 
-### Predicting (CVD) Using Machine Learning(ML).
+### Name :  Thomas Osodo .
 
 Machine learning has demonstrated truly life-impacting potential in healthcare – particularly in the area of medical diagnosis. 
 
@@ -13,11 +8,9 @@ One in four deaths in Britain is caused by CVD and has a very high human and Eco
 
 Figures released by the Centre for Economic and Business Research shows the total cost of CVD in the UK is set to rise by over £3billion in the next six years, from around £15billion in 2014 to over £18billion in 2020.
 
-I used dataset from https://www.kaggle.com/sulianova/cardiovascular-disease-dataset .
-I used mainly information from several sources with facts and figures from 
-https://www.bhf.org.uk/what-we-do/our-research/heart-statistics/heart-statistics-publications/cardiovascular-disease-statistics-2019.
+I used a dataset from [kaggle](https://www.kaggle.com/sulianova/cardiovascular-disease-dataset) to complete this analysis.
 
-https://www.england.nhs.uk/ourwork/clinical-policy/cvd/.
+I used  mainly information from several sources with facts and figures from [The British Heart Foundation](https://www.bhf.org.uk/what-we-do/our-research/heart-statistics/heart-statistics-publications/cardiovascular-disease-statistics-2019) as well as the [NHS](https://www.england.nhs.uk/ourwork/clinical-policy/cvd/).
 
 You can also link to 
 * [Your Email](osodot@icloud.com)
@@ -79,6 +72,8 @@ Recall – ratio of correctly classified cvd patients to patients who have the c
 The potential of machine learning within the medical industry is revealed through this in-depth example of how the technology can be applied to provide a medical diagnosis in this case, the prediction and diagnosis of cardiovascular disease. 
 
 ### Evaluating Output Quality Through Receiver Operating Curves(ROC).
+
+
 
 ### Model Scores.
 Training AUC: 74.38%
