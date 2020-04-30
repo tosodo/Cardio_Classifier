@@ -13,8 +13,8 @@ I used a dataset from [kaggle](https://www.kaggle.com/sulianova/cardiovascular-d
 I used  mainly information from several sources with facts and figures from [The British Heart Foundation](https://www.bhf.org.uk/what-we-do/our-research/heart-statistics/heart-statistics-publications/cardiovascular-disease-statistics-2019) as well as the [NHS](https://www.england.nhs.uk/ourwork/clinical-policy/cvd/).
 
 You can also link to 
-* [Your Email](osodot@icloud.com)
-* [Your Linked In](https://www.linkedin.com/in/thomas-osodo-6961041a/)
+* [Email](mailto:osodot@icloud.com)
+* [Linked In](https://www.linkedin.com/in/thomas-osodo-6961041a/)
 
 
 
