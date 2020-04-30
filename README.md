@@ -76,16 +76,17 @@ The potential of machine learning within the medical industry is revealed throug
 
 
 ### Model Scores.
-Training AUC: 74.38%
-Test AUC:     73.77%
+
+|AUC |%|
+|----|-|
+|Training AUC| 74.38|
+|Test AUC|73.77|
+
+![ROC Curve](notebooks/roc.png)
 
 
-<p align="center">
-  <img width="700" height="600" src="https://github.com/tosodo/Cardio_Classifier/blob/master/Images/Screenshot%202020-04-28%20at%2017.14.32.png">
-</p>
-<p align="center">
-  <img width="700" height="600" src="https://github.com/tosodo/Cardio_Classifier/blob/master/Images/Screenshot%202020-04-28%20at%2017.12.59.png">
-</p>
+
+
 
 
 
